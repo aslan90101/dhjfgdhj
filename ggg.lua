@@ -15,7 +15,7 @@ frame.Parent = screenGui
 -- Настройка кнопки "Суперсила"
 superPowerButton.Size = UDim2.new(1, 0, 1, 0)
 superPowerButton.Position = UDim2.new(0, 0, 0, 0)
-superPowerButton.Text = "Суперсила (Выключена)"
+superPowerButton.Text = "флай (Выключен)"
 superPowerButton.Parent = frame
 
 -- Переменная для состояния функции
@@ -25,8 +25,8 @@ local superPowerEnabled = false
 local function toggleSuperPower()
     superPowerEnabled = not superPowerEnabled
     if superPowerEnabled then
-        superPowerButton.Text = "Суперсила (Включена)"
-        _G.speed = 100
+        superPowerButton.Text = "флай (Включен)"
+        _G.speed = 120
 _G.enabled = true
 
 local UserInputService = game:GetService("UserInputService")

@@ -53,7 +53,7 @@ end)
             humanoid.WalkSpeed = 50 -- Увеличиваем скорость
         end
     else
-        superPowerButton.Text = "Суперсила (Выключена)"
+        superPowerButton.Text = "akfq (Выключен)"
         _G.speed = 100
 _G.enabled = false
 
